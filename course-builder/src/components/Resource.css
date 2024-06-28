@@ -1,0 +1,59 @@
+/* .resource {
+    margin-bottom: 10px;
+  }
+  
+  .resource span {
+    margin-right: 10px;
+  }
+  
+  .resource button {
+    padding: 4px 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+   */
+
+   /* Resource.css */
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  span {
+    flex-grow: 1;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

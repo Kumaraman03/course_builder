@@ -1,0 +1,36 @@
+/* ResourceList.css */
+
+.droppable-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .draggable-item {
+    margin-bottom: 10px;
+  }
+  
+  .draggable-item:last-child {
+    margin-bottom: 0;
+  }
+  .resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .resource-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 8px;
+  }
+  
+  .resource-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  

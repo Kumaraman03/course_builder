@@ -1,0 +1,57 @@
+/* .module {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .module h3 {
+    margin-top: 0;
+  }
+  
+  .module button {
+    margin-left: 10px;
+  }
+   */
+
+   /* Module.css */
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  h3 button:hover {
+    background-color: #0056b3;
+  }
+  
+  h3 button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

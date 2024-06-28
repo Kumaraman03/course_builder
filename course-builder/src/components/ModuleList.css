@@ -1,0 +1,23 @@
+/* .module-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+   */
+   /* ModuleList.css */
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .ModuleList-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
